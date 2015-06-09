@@ -75,7 +75,7 @@ module.exports = React.createClass({
       velocity: this.state.velocity,
       productHasItems: ProductStore.hasItems(this.state.product.id)
     };
-
+    
     return <ItemColumn {...props} />;
   },
 
